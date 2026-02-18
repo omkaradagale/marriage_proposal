@@ -1,0 +1,65 @@
+.envelope-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.envelope-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 60px 40px;
+  box-shadow: 0 20px 60px rgba(184, 134, 134, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(184, 134, 134, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.envelope-content {
+  text-align: center;
+}
+
+.envelope-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #8b6f6f;
+  margin-bottom: 40px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.open-button {
+  background: linear-gradient(135deg, #d4a574 0%, #b8866f 100%);
+  color: #fff;
+  border: none;
+  padding: 18px 45px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: 'Cormorant', serif;
+  font-weight: 500;
+  box-shadow: 0 8px 25px rgba(184, 134, 111, 0.3);
+  transition: all 0.3s ease;
+}
+
+.open-button:hover {
+  box-shadow: 0 12px 35px rgba(184, 134, 111, 0.4);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .envelope-card {
+    padding: 40px 30px;
+  }
+
+  .envelope-title {
+    font-size: 2rem;
+  }
+
+  .open-button {
+    padding: 15px 35px;
+    font-size: 1.1rem;
+  }
+}

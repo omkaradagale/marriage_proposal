@@ -1,0 +1,30 @@
+.typewriter-text {
+  font-family: 'Cormorant', serif;
+  font-size: 1.25rem;
+  line-height: 2;
+  color: #5a4a4a;
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  color: #b8866f;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .typewriter-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+}

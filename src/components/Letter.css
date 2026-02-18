@@ -1,0 +1,66 @@
+.letter-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 20px;
+  padding-bottom: 100px;
+}
+
+.letter-paper {
+  background: linear-gradient(to bottom, #fffef9 0%, #fefcf5 100%);
+  border-radius: 8px;
+  padding: 60px 50px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 
+    0 1px 3px rgba(0, 0, 0, 0.05),
+    0 10px 40px rgba(184, 134, 111, 0.15),
+    inset 0 0 0 1px rgba(184, 134, 111, 0.1);
+  position: relative;
+  border: 1px solid rgba(184, 134, 111, 0.15);
+  margin-top: 40px;
+}
+
+.letter-paper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50px;
+  right: 50px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(184, 134, 111, 0.2), transparent);
+}
+
+.letter-content {
+  position: relative;
+}
+
+.signature {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  color: #8b6f6f;
+  margin-top: 40px;
+  text-align: right;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .letter-container {
+    padding: 30px 15px;
+  }
+
+  .letter-paper {
+    padding: 40px 30px;
+  }
+
+  .letter-paper::before {
+    left: 30px;
+    right: 30px;
+  }
+
+  .signature {
+    font-size: 1.7rem;
+    margin-top: 30px;
+  }
+}

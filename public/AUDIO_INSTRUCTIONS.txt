@@ -1,0 +1,13 @@
+To add your own romantic background music:
+
+1. Find a romantic song/music (MP3 format recommended)
+2. Rename it to: music.mp3
+3. Place it in this folder (public/)
+4. The app will automatically use it!
+
+Recommended sources for royalty-free romantic music:
+- Pixabay: https://pixabay.com/music/
+- Free Music Archive: https://freemusicarchive.org/
+- YouTube Audio Library (download as MP3)
+
+If no local music.mp3 is found, the app will try to use an online fallback source.
