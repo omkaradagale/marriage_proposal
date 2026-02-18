@@ -1,0 +1,37 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(to top, rgba(250, 248, 245, 0.95), transparent);
+  backdrop-filter: blur(5px);
+  z-index: 100;
+}
+
+.footer-text {
+  font-family: 'Cormorant', serif;
+  font-size: 1rem;
+  color: #8b6f6f;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.footer-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #b8866f;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px;
+  }
+
+  .footer-text {
+    font-size: 0.9rem;
+  }
+}

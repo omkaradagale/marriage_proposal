@@ -3,7 +3,7 @@ import { useState } from 'react';
 import TypewriterText from './TypewriterText';
 import './Letter.css';
 
-const letterText = `Hi My Captain, My Love,
+const letterText = `Hi My Love,
 
 As our wedding day comes closer, I keep thinking about the life we are about to begin together.
 

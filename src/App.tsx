@@ -5,6 +5,7 @@ import Letter from './components/Letter';
 import Ending from './components/Ending';
 import HeartsBackground from './components/HeartsBackground';
 import MusicPlayer from './components/MusicPlayer';
+import Footer from './components/Footer';
 import './App.css';
 
 type Stage = 'envelope' | 'letter' | 'ending';
@@ -63,6 +64,8 @@ function App() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <Footer />
     </div>
   );
 }
